@@ -1,0 +1,7 @@
+extend layout
+	
+block content
+	h1 Add new Gecko
+	form(method='POST', action ='/gecko')
+		input#title(type="text", name="name")
+		p: button(type="submit") Add Gecko
